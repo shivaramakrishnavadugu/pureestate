@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pureestate/static/css/main.e369d60a.css",
+    "main.js": "/pureestate/static/js/main.36a92f72.js",
+    "static/js/453.6c65079b.chunk.js": "/pureestate/static/js/453.6c65079b.chunk.js",
+    "static/media/logo.svg": "/pureestate/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/pureestate/index.html",
+    "main.e369d60a.css.map": "/pureestate/static/css/main.e369d60a.css.map",
+    "main.36a92f72.js.map": "/pureestate/static/js/main.36a92f72.js.map",
+    "453.6c65079b.chunk.js.map": "/pureestate/static/js/453.6c65079b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e369d60a.css",
+    "static/js/main.36a92f72.js"
+  ]
+}
