@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px){
+    .logo{
+        margin: 2rem;
+        font-size: 1rem;
+    }
+    .main_logo{
+        text-align: center;
+    }
+    .typeofland{
+        text-align: center;
+    }
+    .na, .a{
+        font-size: 1rem;
+        display: block;
+    }
+}
