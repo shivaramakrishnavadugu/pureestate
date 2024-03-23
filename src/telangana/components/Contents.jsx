@@ -1,0 +1,71 @@
+import React from "react";
+
+function Content() {
+    return(
+        <div>
+            <h1>Contents Part</h1>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+            <p>jvhkjhkghk</p>
+        </div>
+    )
+}
+
+export default Content;

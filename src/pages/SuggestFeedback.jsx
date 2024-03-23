@@ -1,12 +1,12 @@
 import React from "react";
 import HeaderComp from "../telangana/components/Header";
 
-function Home() {
+function SuggestFeedback() {
     return(
         <div>
             <HeaderComp />
-           <h1>Home Page</h1> 
+           <h1>Suggestions and Feedack Page</h1> 
         </div>
     )
 }
-export default Home;
+export default SuggestFeedback;
