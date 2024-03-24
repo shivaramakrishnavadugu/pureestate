@@ -58,3 +58,28 @@ span{
     background-color: rgb(236, 95, 0);
     border-radius: 0.5rem;
 }
+.page_not, .reload_does_not, .kindly_go_home{
+    color: #fff;
+    text-align: center;
+    margin: 0.5rem;
+}
+.page_not{
+    font-size: 1.2rem;
+    color: rgb(10, 2, 43);
+}
+.home_button a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: block;
+    font-weight: bolder;
+}
+.home_button{
+    background-color: black;
+    border: 0.1rem solid white;
+    border-radius: 0.3rem;
+}
+.home_button_par{
+    text-align: center;
+    margin: 1rem;
+}

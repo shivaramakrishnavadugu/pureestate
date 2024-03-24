@@ -8,6 +8,7 @@ import SuggestFeedback from './pages/SuggestFeedback';
 import Agriculture from './telangana/components/Agriculture';
 import NonAgriculture from './telangana/components/NonAgriculture';
 import NASelectState from './telangana/components/NASelectState';
+import PageNotFound from './components/PageNotFound';
 function App() {
     return (
         <div className="App">
@@ -19,6 +20,7 @@ function App() {
                     <Route path="selectstate-agriculture" element={<Agriculture />} />
                     <Route path="selectstate-non-agriculture" element={<NonAgriculture />} />
                     <Route path="selectstatena" element={<NASelectState />} />
+                    <Route path="*" element={<PageNotFound />} />
             </Routes>
         </div>
     );

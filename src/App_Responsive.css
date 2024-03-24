@@ -20,4 +20,14 @@
         display: block;
         text-align: center;
     }
+    .reload_does_not, .kindly_go_home{
+        font-size: 0.8rem;
+    }
+    .page_not{
+        font-size: 1.2rem;
+        color: rgb(10, 2, 43);
+    }
+    .home_button a{
+        padding: 0.2rem 0.7rem;
+    }
 }
