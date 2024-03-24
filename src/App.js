@@ -1,6 +1,6 @@
 import './App.css';
 import './App_Responsive.css';
-import { Routes, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Homepage from './telangana/content_pages/HomePage';
 import Contact from './pages/Contact';
 import About from './pages/About';
@@ -12,7 +12,7 @@ import PageNotFound from './components/PageNotFound';
 function App() {
     return (
         <div className="App">
-            <Routes>
+            <HashRouter>
                     <Route index element={<Homepage />} />
                     <Route path="contact" element={<Contact />} />
                     <Route path="about" element={<About />} />
@@ -21,7 +21,7 @@ function App() {
                     <Route path="selectstate-non-agriculture" element={<NonAgriculture />} />
                     <Route path="selectstatena" element={<NASelectState />} />
                     <Route path="*" element={<PageNotFound />} />
-            </Routes>
+            </HashRouter>
         </div>
     );
 }
