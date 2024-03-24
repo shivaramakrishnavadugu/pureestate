@@ -1,9 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import HeaderComp from "./Header";
 
 function NASelectState() {
-    return(
+    return (
         <div>
-           <h1>Select State NA</h1> 
+            <HeaderComp />
+            <div className="select_state_parent">
+                <h1 className="select_state">Select your state</h1>
+                <p className="states"><Link to="/selectstate-non-agriculture/tg-non-agriculture" className="states_links">Telangana</Link></p>
+            </div>
         </div>
     )
 }

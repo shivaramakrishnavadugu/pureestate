@@ -8,6 +8,7 @@ import SuggestFeedback from './pages/SuggestFeedback';
 import Agriculture from './telangana/components/Agriculture';
 import NonAgriculture from './telangana/components/NonAgriculture';
 import NASelectState from './telangana/components/NASelectState';
+import ASelectState from './telangana/components/ASelectState';
 import PageNotFound from './components/PageNotFound';
 function App() {
     return (
@@ -17,9 +18,10 @@ function App() {
                     <Route path="contact" element={<Contact />} />
                     <Route path="about" element={<About />} />
                     <Route path="suggestions&feedback" element={<SuggestFeedback />} />
-                    <Route path="selectstate-agriculture" element={<Agriculture />} />
-                    <Route path="selectstate-non-agriculture" element={<NonAgriculture />} />
-                    <Route path="selectstatena" element={<NASelectState />} />
+                    <Route path="selectstate-agriculture" element={<ASelectState />} />
+                    <Route path="selectstate-non-agriculture" element={<NASelectState />} />
+                    <Route path="selectstate-agriculture/tg-agriculture" element={<Agriculture />} />
+                    <Route path="selectstate-non-agriculture/tg-non-agriculture" element={<NonAgriculture />} />
                     <Route path="*" element={<PageNotFound />} />
             </Routes>
         </div>
