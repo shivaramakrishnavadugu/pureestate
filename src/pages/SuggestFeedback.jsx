@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderComp from "../telangana/components/Header";
+import HeaderComp from "../components/Header";
 
 function SuggestFeedback() {
     return(

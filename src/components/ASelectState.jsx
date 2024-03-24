@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HeaderComp from "./Header";
+import Footer from "./Footer";
 
 function ASelectState() {
     return (
@@ -10,6 +11,7 @@ function ASelectState() {
                 <h1 className="select_state">Select your state</h1>
                 <p className="states"><Link to="/selectstate-agriculture/tg-agriculture" className="states_links">Telangana</Link></p>
             </div>
+            <Footer />
         </div>
     )
 }

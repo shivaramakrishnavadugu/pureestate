@@ -1,0 +1,77 @@
+import React from "react";
+
+function TGAListOfContents() {
+    return(
+        <div>
+            <h3>TGA List of contents</h3>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+            <p>sdjfhkjsadhfkjsd</p>
+        </div>
+    )
+}
+export default TGAListOfContents;

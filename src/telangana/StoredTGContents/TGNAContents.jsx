@@ -1,6 +1,6 @@
 import React from "react";
 
-function Content() {
+function TGNAContents() {
     return(
         <div>
             <h1>Contents Part</h1>
@@ -68,4 +68,4 @@ function Content() {
     )
 }
 
-export default Content;
+export default TGNAContents;

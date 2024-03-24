@@ -1,37 +1,77 @@
-@media only screen and (max-width: 651px){
-    .logo{
+@media only screen and (max-width: 651px) {
+
+    /*Header Styles*/
+    .logo {
         margin: 0.1rem;
         padding: 0.3rem;
         font-size: 1rem;
     }
-    .main_logo{
+
+    .main_logo {
         text-align: center;
     }
-    .typeofland{
+
+    .active::after{
+        content: "";
+        height: 0.08rem;
+        width: 1.5rem;
+        left: 4px;
+        bottom: 0;
+    }
+
+    .header_main_division {
+        display: block;
+    }
+
+    .header_main_division .navbar ul li{
+        display: block;
         text-align: center;
     }
-    .na, .a{
+
+    .navlink {
+        display: inline-block;
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 0.3rem;
+        margin: 0.08rem;
+    }
+
+    /*Homepage Styles*/
+    .typeofland {
+        text-align: center;
+    }
+
+    .na,
+    .a {
         font-size: 1rem;
         display: block;
     }
-    .header_main_division{
-        display: block;
-    }
-    .navlink{
-        display: block;
-        text-align: center;
-        font-size: 0.7rem;
-        padding: 0.2rem;
-        margin: 0.08rem;
-    }
-    .reload_does_not, .kindly_go_home{
-        font-size: 0.8rem;
-    }
-    .page_not{
+
+    /*Page Not Found Styles*/
+    .page_not {
         font-size: 1.2rem;
         color: rgb(10, 2, 43);
     }
-    .home_button a{
+
+    .home_button a {
         padding: 0.2rem 0.7rem;
+    }
+
+    /*Main TG Page Styles*/
+    .tga_contents, .tgna_contents, .tga_listofcontents, .tgna_listofcontents{
+        float: none;
+        width: 100%;
+        margin: 0;
+        
+    }
+
+    /*Footer*/
+    .footer_main_logo{
+        display: block;
+        font-size: 0.8rem;
+    }
+    .footer{
+        display: block;
+        text-align: center;
     }
 }

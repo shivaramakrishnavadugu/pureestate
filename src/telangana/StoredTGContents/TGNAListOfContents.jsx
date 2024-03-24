@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function ListOfContents() {
+function TGNAListOfContents() {
     return(
         <div>
             <h1>List Of Contents</h1>
@@ -36,4 +36,4 @@ function ListOfContents() {
     )
 }
 
-export default ListOfContents;
+export default TGNAListOfContents;

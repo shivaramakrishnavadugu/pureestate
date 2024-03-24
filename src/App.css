@@ -5,9 +5,22 @@
 }
 :root{
     --normal-font-color: #4a5058;
+    --button-color: rgb(55, 55, 85);
+    --button-border-color: #fff;
 }
 body{
     background-color: #fff;
+}
+/*Header Styles*/
+.header_main_division{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 219, 219);
+    border-bottom: 0.1rem solid rgb(163, 163, 163);
+}
+.header_main_division .navbar ul li{
+    list-style-type: none;
+    display: inline-block;
 }
 .logo{
     color: #2f2646;
@@ -19,6 +32,26 @@ body{
     display: inline-block;
     border-radius: 0.5rem;
 }
+.navlink{
+    text-decoration: none;
+    color: var(--normal-font-color);
+    padding: 0.4rem 1rem;
+    margin: 0.8rem 0;
+    font-size: 1.2rem;
+    display: inline-block;
+    position: relative;
+}
+.active::after, .navlink:hover:after{
+    content: "";
+    width: 3rem;
+    height: 0.2rem;
+    background-color: rgb(45, 45, 80);
+    position: absolute;
+    left: 14px;
+    bottom: -13px;
+}
+
+/*Type of Land Styles*/
 .typeofland{
     text-align: center;
     margin-top: 10%;
@@ -39,28 +72,11 @@ body{
     text-decoration: none;
     color: var(--normal-font-color);
 }
-span{
+.home_span{
     color:rgb(42, 7, 145);
 }
-.header_main_division{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(219, 219, 219);
-    border-bottom: 0.1rem solid rgb(163, 163, 163);
-}
-.navlink{
-    text-decoration: none;
-    color: var(--normal-font-color);
-    padding: 0.4rem 1rem;
-    font-size: 1.2rem;
-    display: inline-block;
-    margin: 0.3rem;
-}
-.navlink:hover{
-    color: var(--normal-font-color);
-    background-color: rgb(219, 219, 223);
-    border-radius: 0.5rem;
-}
+
+/*Page Not Found Styles*/
 .page_not, .reload_does_not, .kindly_go_home{
     color: var(--normal-font-color);
     text-align: center;
@@ -86,6 +102,8 @@ span{
     text-align: center;
     margin: 1rem;
 }
+
+/*Select State Page Styles*/
 .select_state_parent{
     text-align: center;
     margin-top: 2rem;
@@ -94,9 +112,8 @@ span{
     text-decoration: none;
     color: var(--normal-font-color);
     padding: 0.5rem 1rem;
-    background-color:rgb(1, 34, 1);
+    border: 0.1rem solid rgb(26, 26, 36);
     margin: 1rem;
-    border: 0.1rem solid #fff;
     display: inline-block;
     border-radius: 0.3rem;
     font-size: 0.8rem;
@@ -105,4 +122,59 @@ span{
     color: var(--normal-font-color);
     font-size: 1.8rem;
     margin: 1rem;
+}
+
+/*Main TG Page Styles*/
+.tga_main_contents_tag::after, .tgna_main_contents_tag::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.tga_main_contents_tag, .tgna_main_contents_tag{
+    margin: 1rem 0 1rem 0;
+}
+.tga_contents, .tgna_contents{
+    float: left;
+    width: 76%;
+    margin: 1rem;
+    border: 0.1rem solid rgb(104, 104, 129);
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+.tga_listofcontents, .tgna_listofcontents{
+    float: right;
+    width: 16%;
+    margin: 1rem;
+    border: 0.1rem solid rgb(66, 66, 88);
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+
+/*Footer Styles*/
+.footer_main_logo{
+    color: rgb(208, 208, 238);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+.footer{
+    background: linear-gradient(90deg, rgb(31, 31, 49), rgb(66, 66, 109));
+    color: rgb(208, 208, 238);
+    display: flex;
+    justify-content: space-between;
+}
+.footer span{
+    margin: 0.1rem;
+    padding: 0.5rem;
+    display: inline-block;
+}
+.footer_main_division{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer_not_fix_main_division{
+    width: 100%;
 }
