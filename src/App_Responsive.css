@@ -1,6 +1,7 @@
 @media only screen and (max-width: 651px){
     .logo{
-        margin: 2rem;
+        margin: 0.1rem;
+        padding: 0.3rem;
         font-size: 1rem;
     }
     .main_logo{
@@ -19,6 +20,9 @@
     .navlink{
         display: block;
         text-align: center;
+        font-size: 0.7rem;
+        padding: 0.2rem;
+        margin: 0.08rem;
     }
     .reload_does_not, .kindly_go_home{
         font-size: 0.8rem;
