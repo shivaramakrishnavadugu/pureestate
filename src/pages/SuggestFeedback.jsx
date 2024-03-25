@@ -1,11 +1,17 @@
 import React from "react";
 import HeaderComp from "../components/Header";
+import Footer from "../components/Footer";
 
 function SuggestFeedback() {
     return(
         <div>
-            <HeaderComp />
-           <h1>Suggestions and Feedack Page</h1> 
+            <HeaderComp /><div className="feedback_main_tag">
+                <div className="feedback">
+                    <h2 className="feedback_heading">Let us know, what we can do more.</h2>
+                    <p className="feedback_email_id">Email: <span>pureestate.feedback@gmail.com</span></p>
+                </div>
+            </div>
+           <Footer /> 
         </div>
     )
 }

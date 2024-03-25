@@ -1,6 +1,6 @@
 import './App.css';
 import './App_Responsive.css';
-import './App_js';
+import './App_js.js';
 import { Routes, Route } from "react-router-dom";
 import Homepage from './components/HomePage';
 import Contact from './pages/Contact';

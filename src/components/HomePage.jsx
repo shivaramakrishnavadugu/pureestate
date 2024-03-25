@@ -8,8 +8,8 @@ function Homepage() {
             <HeaderComp />
             
 
-            <div class="typeofland">
-                <div class="na">
+            <div className="typeofland">
+                <div className="na">
                     <Link to="/selectstate-non-agriculture" className="link_na">Knowledge for <span className="home_span">Non-Agriculture</span> land</Link>
                 </div>
                 <div class="a">
