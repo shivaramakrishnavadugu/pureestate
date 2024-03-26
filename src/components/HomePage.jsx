@@ -10,10 +10,10 @@ function Homepage() {
 
             <div className="typeofland">
                 <div className="na">
-                    <Link to="/selectstate-non-agriculture" className="link_na">Knowledge for <span className="home_span">Non-Agriculture</span> land</Link>
+                    <Link to="/select_state_non_agriculture" className="link_na">Knowledge for <span className="home_span">Non-Agriculture</span> land</Link>
                 </div>
                 <div class="a">
-                    <Link to="/selectstate-agriculture" className="link_a">Knowledge for <span className="home_span">Agriculture</span> land</Link>
+                    <Link to="/select_state_agriculture" className="link_a">Knowledge for <span className="home_span">Agriculture</span> land</Link>
                 </div>
             </div>
 

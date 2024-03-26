@@ -1,4 +1,4 @@
-@media only screen and (max-width: 651px) {
+@media only screen and (max-width: 700px) {
 
     /*Header Styles*/
     .logo {
@@ -11,7 +11,7 @@
         text-align: center;
     }
 
-    .active::after{
+    .active::after, .navlink:hover:after{
         content: "";
         height: 0.08rem;
         width: 1.5rem;
@@ -57,21 +57,50 @@
         padding: 0.2rem 0.7rem;
     }
 
-    /*Main TG Page Styles*/
-    .tga_contents, .tgna_contents, .tga_listofcontents, .tgna_listofcontents{
-        float: none;
-        width: 100%;
-        margin: 0;
-        
+    /*Main TGNA Page Styles*/
+    .tga_listofcontents, .tga_listofcontents.active, .tgna_listofcontents, .tgna_listofcontents.active{
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+    .tga_main_contents_tag, .tgna_main_contents_tag{
+        margin: 1rem 0 1rem 0;
+        display: grid;
+        grid-template-columns: none;
     }
 
-    /*Footer*/
+    /*Footer Styles*/
     .footer_main_logo{
-        display: block;
-        font-size: 0.8rem;
+        display: inline-block;
+        font-size: 0.7rem;
     }
     .footer{
         display: block;
+        text-align: center;
+    }
+    .terms_of_use_link, .privacy_policy_link{
+        font-size: 0.7rem;
+    }
+    .footer_copyrights_part{
+        font-size: 0.7rem;
+        padding: 0;
+        margin: 0;
+    }
+    /*About Page Styles*/
+    .about_heading{
+        font-size: 1.1rem;
+        text-decoration: 0.1rem underline var(--normal-font-color);
+    }
+    .about_info p{
+        font-size: 0.8rem;
+    }
+
+    /*Contact and Feedback Styles*/
+    .contact_heading, .feedback_heading{
+        font-size: 1.1rem;
+    }
+    .contact_email_id, .feedback_email_id{
+        font-size: 0.9rem;
+        margin: 0;
         text-align: center;
     }
 }

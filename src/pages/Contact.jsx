@@ -9,7 +9,7 @@ function Contact() {
             <div className="contact_main_tag">
                 <div className="contact">
                     <h2 className="contact_heading">Let us help for you</h2>
-                    <p className="contact_email_id">Email: <span>help@pureestate.in</span></p>
+                    <p className="contact_email_id">Email: <div>help@pureestate.in</div></p>
                 </div>
             </div>
            <Footer />

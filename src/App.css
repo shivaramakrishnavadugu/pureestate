@@ -124,7 +124,7 @@ body{
     margin: 1rem;
 }
 
-/*Main TG Page Styles*/
+/*Main TGNA Page Styles*/
 .tga_main_contents_tag::after, .tgna_main_contents_tag::after{
     content: "";
     display: block;
@@ -132,41 +132,72 @@ body{
 }
 .tga_main_contents_tag, .tgna_main_contents_tag{
     margin: 1rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
 }
 .tga_contents, .tgna_contents{
-    float: left;
-    width: 72%;
-    margin: 1rem;
     border: 0.1rem solid rgb(104, 104, 129);
     border-radius: 0.4rem;
     padding: 1rem;
 }
-.tga_listofcontents, .tgna_listofcontents{
-    float: right;
-    width: 20%;
-    margin: 1rem;
+.tga_listofcontents, .tga_listofcontents.active, .tgna_listofcontents, .tgna_listofcontents.active{
     border: 0.1rem solid rgb(66, 66, 88);
     border-radius: 0.4rem;
-    padding: 1rem;
+    padding: 0.2rem;
+    font-size: 1vw;
+}
+
+/*List of Contents Styles*/
+.listofcontents ol li{
+    list-style-position: inside;
+    color: var(--normal-font-color);
+    padding: 0.2rem;
+}
+.listofcontents ol li:hover{
+    background-color: rgb(221, 221, 228);
+}
+.listofcontents_links{
+    text-decoration: none;
+    color: var(--normal-font-color);
+    display: inline-block;
+    padding: 0.2rem;
 }
 
 /*Footer Styles*/
+.terms_of_use_link, .privacy_policy_link{
+    text-decoration: none;
+    color: rgb(208, 208, 238);
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    display: inline-block;
+}
+.terms_of_use_link:hover, .privacy_policy_link:hover{
+    text-decoration: underline;
+    color: rgb(253, 253, 255);
+}
+.tnp_divider{
+    color: rgb(208, 208, 238);
+}
+.footer_copyrights_part{
+    color: rgb(208, 208, 238);
+    font-size: 0.9rem;
+    padding: 0.4rem;
+    margin: 0.1rem;
+}
 .footer_main_logo{
     color: rgb(208, 208, 238);
     text-decoration: none;
     font-weight: bolder;
-    font-size: 1.5vw;
+    font-size: 0.9rem;
     display: inline-block;
 }
 .footer{
-    background: linear-gradient(90deg, rgb(31, 31, 49), rgb(66, 66, 109));
-    color: rgb(208, 208, 238);
+    background: linear-gradient(90deg, rgb(17, 17, 27), rgb(42, 42, 66));
     display: flex;
     justify-content: space-between;
 }
 .footer span{
-    margin: 0.1rem;
-    padding: 0.5rem;
     display: inline-block;
 }
 .footer_main_division{
@@ -174,21 +205,6 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-}
-.footer_not_fix_main_division{
-    width: 100%;
-}
-
-/*List of Contents Styles*/
-.listofcontents ol li{
-    list-style-position: inside;
-
-}
-.listofcontents_links{
-    text-decoration: none;
-    color: red;
-    display: inline-block;
-    padding: 0.5rem;
 }
 
 /*Contact Us and Feedback Page Styles*/
@@ -205,8 +221,10 @@ body{
     color: var(--normal-font-color);
     font-weight: bolder;
     margin: 0.1rem 0.1rem 0.1rem 2rem;
+    display: block;
+    text-align: center;
 }
-.contact_email_id span, .feedback_email_id span{
+.contact_email_id div, .feedback_email_id div{
     color: rgb(24, 24, 43);
 }
 
@@ -224,4 +242,8 @@ body{
     color: var(--normal-font-color);
     padding: 0 0 0.5rem 0;
     margin: 0 0 0.1rem 0;
+    font-size: 0.9rem;
+}
+.about_info p:nth-child(5){
+    text-align: center;
 }
