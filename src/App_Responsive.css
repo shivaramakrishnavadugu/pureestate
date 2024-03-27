@@ -11,7 +11,8 @@
         text-align: center;
     }
 
-    .active::after, .navlink:hover:after{
+    .active::after,
+    .navlink:hover:after {
         content: "";
         height: 0.08rem;
         width: 1.5rem;
@@ -23,7 +24,7 @@
         display: block;
     }
 
-    .header_main_division .navbar ul li{
+    .header_main_division .navbar ul li {
         display: block;
         text-align: center;
     }
@@ -47,6 +48,14 @@
         display: block;
     }
 
+    .homepage_main_division{
+        background: url("../public/ou.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 51%;
+        height: 100vh;
+    }
+
     /*Page Not Found Styles*/
     .page_not {
         font-size: 1.2rem;
@@ -58,49 +67,88 @@
     }
 
     /*Main TGNA Page Styles*/
-    .tga_listofcontents, .tga_listofcontents.active, .tgna_listofcontents, .tgna_listofcontents.active{
-        padding: 0.7rem;
+    .tga_listofcontents,
+    .tgna_listofcontents{
+        padding: 0.4rem;
         font-size: 0.9rem;
+        margin: 1rem;
     }
-    .tga_main_contents_tag, .tgna_main_contents_tag{
-        margin: 1rem 0 1rem 0;
+
+    .tga_contents,
+    .tgna_contents {
+        margin: 1rem;
+        padding: 0.4rem;
+    }
+
+    .tga_main_contents_tag,
+    .tgna_main_contents_tag {
+        margin: 0;
         display: grid;
         grid-template-columns: none;
+        padding: 0;
     }
 
     /*Footer Styles*/
-    .footer_main_logo{
+    .footer_main_logo {
         display: inline-block;
         font-size: 0.7rem;
     }
-    .footer{
+
+    .footer {
         display: block;
         text-align: center;
     }
-    .terms_of_use_link, .privacy_policy_link{
+
+    .terms_of_use_link,
+    .privacy_policy_link {
         font-size: 0.7rem;
     }
-    .footer_copyrights_part{
+
+    .footer_copyrights_part {
         font-size: 0.7rem;
         padding: 0;
         margin: 0;
     }
+
     /*About Page Styles*/
-    .about_heading{
+    .about_heading {
         font-size: 1.1rem;
         text-decoration: 0.1rem underline var(--normal-font-color);
     }
-    .about_info p{
+
+    .about_info p {
         font-size: 0.8rem;
     }
 
     /*Contact and Feedback Styles*/
-    .contact_heading, .feedback_heading{
+    .contact_heading,
+    .feedback_heading {
         font-size: 1.1rem;
     }
-    .contact_email_id, .feedback_email_id{
+
+    .contact_email_id,
+    .feedback_email_id {
         font-size: 0.9rem;
         margin: 0;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 319x) {
+
+    /*Main TGNA Page Styles*/
+    .tga_listofcontents,
+    .tga_listofcontents.active,
+    .tgna_listofcontents,
+    .tgna_listofcontents.active {
+        padding: 0.4rem;
+        font-size: 0.9rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .tga_contents,
+    .tgna_contents {
+        margin: 1rem 0 1rem 0;
+        padding: 0.4rem;
     }
 }
