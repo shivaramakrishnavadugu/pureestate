@@ -5,7 +5,7 @@ function TGNAListOfContents() {
     return (
         <div>
             <div className="listofcontents_main_tag">
-                <h1 className="listofcontents_heading">Steps to Know</h1>
+                <h1 className="listofcontents_heading">Contents</h1>
                 <div className="listofcontents">
                     <ol>
                         <li><Link to="know_the_telangana" className="listofcontents_links">Know the Telangana</Link></li>

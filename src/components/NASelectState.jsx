@@ -10,7 +10,11 @@ function NASelectState() {
             <div className="select_state_parent">
                 <h1 className="select_state">Select your state</h1>
                 <p>We are working to available to all the states. thanks for forbearing.</p>
-                <p className="states"><Link to="/select_state_non_agriculture/tg_non_agriculture/know_the_telangana" className="states_links">Telangana</Link></p>
+                <p className="states">
+                    <Link to="/select_state_non_agriculture/tg_non_agriculture/know_the_telangana" className="states_links">
+                        <img src="hyderabad-charminar.jpg" alt="Hyderabad" className="telangana_image" />
+                        <p>Telangana</p>
+                    </Link></p>
             </div>
             <Footer />
         </div>

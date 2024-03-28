@@ -69,9 +69,7 @@
     /*Main TGNA Page Styles*/
     .tga_listofcontents,
     .tgna_listofcontents{
-        padding: 0.4rem;
         font-size: 0.9rem;
-        margin: 1rem;
     }
 
     .tga_contents,
