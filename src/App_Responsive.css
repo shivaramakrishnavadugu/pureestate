@@ -7,6 +7,48 @@
         font-size: 1rem;
     }
 
+    .tgna_listofcontents, .tga_listofcontents{
+        height: auto;
+        width: 100%;
+        background-color: #dbdcdd;
+        overflow-y: auto;
+        overflow-x: auto;
+        padding-top: 20px;
+    }
+    .tga_contents, .tgna_contents{
+        border-right: none;
+        overflow-y: scroll;
+        height: auto;
+    }
+
+    .bar_one, .bar_two, .bar_three, .contents_bar_one, .contents_bar_two,.contents_bar_three{
+        width: 25px;
+        height: 2px;
+        background-color: rgb(17, 17, 24);
+        margin: 5px;
+        transition: linear 0.2s;
+    }
+    .listofcontents_main_tag{
+        display: none;
+        width: 80%;
+    }
+    .common_class{
+        margin: 0;
+    }
+    .common_class h1{
+        font-size: 1rem;
+    }
+    .common_class p{
+        font-size: 0.9rem;
+    }
+    
+    .header_top{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.4rem;
+        align-items: center;
+    }
+
     .main_logo {
         text-align: center;
     }
@@ -22,6 +64,34 @@
 
     .header_main_division {
         display: block;
+    }
+
+    .navchange .bar_one{
+        transform: translate(0px, 5px) rotate(42deg)
+    }
+    .navchange .bar_two{
+        opacity: 0;
+    }
+    .navchange .bar_three{
+        transform: translate(0px, -9px) rotate(-42deg)
+    }
+    .contentnavchange .contents_bar_one{
+        transform: translate(0px, 5px) rotate(42deg)
+    }
+    .contentnavchange .contents_bar_two{
+        opacity: 0;
+    }
+    .contentnavchange .contents_bar_three{
+        transform: translate(0px, -9px) rotate(-42deg)
+    }
+
+    .navbar{
+        display: none;
+        padding-top: 0.5rem;
+    }
+
+    .navbarshadow{
+        box-shadow: 0px 0px 10px 2px rgb(88, 88, 88);
     }
 
     .header_main_division .navbar ul li {

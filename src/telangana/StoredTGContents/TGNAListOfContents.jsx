@@ -2,9 +2,31 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function TGNAListOfContents() {
+
+    function ResponsiveContent() {
+        var contentbarhead = document.getElementById("content_bar_head");
+        var contentstab = document.getElementById("list_of_content_idd");
+
+        if (contentstab.style.display === "block"){
+            contentstab.style.display = "none";
+        }else{
+            contentstab.style.display = "block";
+        }
+        contentbarhead.classList.toggle("contentnavchange");
+    }
+
+
     return (
         <div>
-            <div className="listofcontents_main_tag">
+
+            <div className="contents_bar_head" id="content_bar_head" onClick={ResponsiveContent}>
+                <div className="contents_bar_one"></div>
+                <div className="contents_bar_two"></div>
+                <div className="contents_bar_three"></div>
+                <p>Contents</p>
+            </div>
+
+            <div className="listofcontents_main_tag" id="list_of_content_idd">
                 <h1 className="listofcontents_heading">Contents</h1>
                 <div className="listofcontents">
                     <ol>

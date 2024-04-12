@@ -65,6 +65,11 @@ body{
     text-align: center;
     margin-top: 10%;
 }
+.typeofland p{
+    padding : 10px;
+    background-color: rgb(71, 71, 71);
+    color: #ffffff;
+}
 .na, .a{
     border: 0.1rem solid rgb(26, 26, 36);
     display: inline;
@@ -159,21 +164,19 @@ body{
 /*Main TGNA Page Styles*/
 .tga_main_contents_tag, .tgna_main_contents_tag{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 20% 65% 15%;
 }
 .tga_contents, .tgna_contents{
     border-right: 1px solid rgb(239, 239, 240);
+    overflow-y: scroll;
+    height: 90vh;
 }
-.tga_contents h1, .tgna_contents h1{
-    font-size: 1.2rem;
-    line-height: 2rem;
-}
-.tga_contents p, .tgna_contents p{
-    font-size: 0.9rem;
-    line-height: 1rem;
+.ads_section{
+    height: 90vh;
+    overflow-y: scroll;
 }
 .tgna_listofcontents, .tga_listofcontents{
-    height: 545px;
+    height: 90vh;
     width: 100%;
     background-color: #dbdcdd;
     overflow-y: scroll;
@@ -240,6 +243,9 @@ body{
     bottom: 0;
     width: 100%;
 }
+.footer_not_fix_main_division{
+    width: 100%;
+}
 
 /*Contact Us and Feedback Page Styles*/
 .contact_main_tag, .feedback_main_tag{
@@ -280,4 +286,31 @@ body{
 }
 .about_info p:nth-child(5){
     text-align: center;
+}
+.common_class{
+    margin: 1rem;
+}
+.common_class h1{
+    color: red;
+    position: relative;
+    padding: 0.8rem 0;
+}
+.common_class h1::after{
+    content: "";
+    background-color: green;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.common_class p{
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    color: rgb(13, 13, 22);
+    line-height: 2rem;
+}
+.common_class p span{
+    font-weight: bold;
+    color: rgb(9, 9, 20);
 }
