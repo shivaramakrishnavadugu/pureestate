@@ -1,6 +1,6 @@
 import React from "react";
 
-function LocationConfirmationTG() {
+function LocationConfirmation() {
     return (
         <div className="location_section common_class">
             <h1>Location Confirmation</h1>
@@ -23,4 +23,4 @@ function LocationConfirmationTG() {
     )
 }
 
-export default LocationConfirmationTG;
+export default LocationConfirmation;

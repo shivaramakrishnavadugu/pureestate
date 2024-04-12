@@ -1,6 +1,6 @@
 import React from "react";
 
-function DesicionTaking() {
+function TakingDecision() {
     return (
         <div className="decision_section common_class">
             <h1>Taking Decision</h1>
@@ -33,4 +33,4 @@ function DesicionTaking() {
     )
 }
 
-export default DesicionTaking;
+export default TakingDecision;

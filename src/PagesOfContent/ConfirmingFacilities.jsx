@@ -1,6 +1,6 @@
 import React from "react";
 
-function FacilitiesTestTG() {
+function ConfirmingFacilities() {
     return (
         <div className="facilities_section common_class">
             <h1>Confirming Facilities</h1>
@@ -33,4 +33,4 @@ function FacilitiesTestTG() {
     )
 }
 
-export default FacilitiesTestTG;
+export default ConfirmingFacilities;

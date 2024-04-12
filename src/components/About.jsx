@@ -1,8 +1,8 @@
 import React from "react";
-import HeaderComp from "../components/Header";
-import Footer from "../components/Footer";
+import HeaderComp from "./Header";
+import Footer from "./Footer";
 
-function About() {
+function AboutComponent() {
     return(
         <div>
             <HeaderComp />
@@ -24,4 +24,4 @@ function About() {
         </div>
     )
 }
-export default About;
+export default AboutComponent;

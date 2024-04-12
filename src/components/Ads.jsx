@@ -1,6 +1,6 @@
 import React from "react";
 
-function AdsSection() {
+function AdsComponent() {
     return(
         <div className="ads_section_main_tag">
             <div className="ads_section">
@@ -10,4 +10,4 @@ function AdsSection() {
     )
 }
 
-export default AdsSection;
+export default AdsComponent;

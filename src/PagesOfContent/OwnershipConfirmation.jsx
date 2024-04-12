@@ -1,6 +1,6 @@
 import React from "react";
 
-function OwnershipConfirmationTG() {
+function OwnershipConfirmation() {
     return (
         <div className="ownership_section common_class">
             <h1>Ownership Confirmation</h1>
@@ -29,4 +29,4 @@ function OwnershipConfirmationTG() {
     )
 }
 
-export default OwnershipConfirmationTG;
+export default OwnershipConfirmation;

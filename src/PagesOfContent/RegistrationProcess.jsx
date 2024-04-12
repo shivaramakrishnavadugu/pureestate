@@ -1,6 +1,6 @@
 import React from "react";
 
-function RegistrationTG() {
+function RegistrationProcess() {
     return (
         <div className="registration_section common_class">
             <h1>Registration Process</h1>
@@ -31,4 +31,4 @@ function RegistrationTG() {
     )
 }
 
-export default RegistrationTG;
+export default RegistrationProcess;

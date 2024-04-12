@@ -1,6 +1,6 @@
 import React from "react";
 
-function PriceTestTG() {
+function PriceClarification() {
     return (
         <div className="price_section common_class">
             <h1>Price Clarification</h1>
@@ -27,4 +27,4 @@ function PriceTestTG() {
     )
 }
 
-export default PriceTestTG;
+export default PriceClarification;

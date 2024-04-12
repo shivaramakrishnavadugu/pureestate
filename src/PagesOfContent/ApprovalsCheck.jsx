@@ -1,6 +1,6 @@
 import React from "react";
 
-function ApprovalsTestTG() {
+function ApprovalsCheck() {
     return (
         <div className="approvals_section common_class">
             <h1>Approvals Check</h1>
@@ -33,4 +33,4 @@ function ApprovalsTestTG() {
     )
 }
 
-export default ApprovalsTestTG;
+export default ApprovalsCheck;

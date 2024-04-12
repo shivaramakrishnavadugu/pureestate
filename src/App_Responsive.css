@@ -28,6 +28,9 @@
         margin: 5px;
         transition: linear 0.2s;
     }
+    .contents_bar_head p{
+        display: block;
+    }
     .listofcontents_main_tag{
         display: none;
         width: 80%;

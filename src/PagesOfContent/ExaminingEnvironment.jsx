@@ -1,6 +1,6 @@
 import React from "react";
 
-function EnvironmentTestTG() {
+function ExaminingEnvironment() {
     return (
         <div className="environment_section common_class">
             <h1>Examining Environment</h1>
@@ -29,4 +29,4 @@ function EnvironmentTestTG() {
     )
 }
 
-export default EnvironmentTestTG;
+export default ExaminingEnvironment;

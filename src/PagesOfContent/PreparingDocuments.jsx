@@ -1,6 +1,6 @@
 import React from "react";
 
-function DocumentsPreparationTG() {
+function PreparingDocuments() {
     return (
         <div className="preparation_section common_class">
             <h1>Preparing Documents</h1>
@@ -64,4 +64,4 @@ function DocumentsPreparationTG() {
     )
 }
 
-export default DocumentsPreparationTG;
+export default PreparingDocuments;

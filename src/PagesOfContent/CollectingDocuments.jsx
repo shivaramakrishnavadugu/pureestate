@@ -1,6 +1,6 @@
 import React from "react";
 
-function CollectingDocumentsTG() {
+function CollectingDocuments() {
     return (
         <div className="collecting_section common_class">
             <h1>Collecting Documents</h1>
@@ -29,4 +29,4 @@ function CollectingDocumentsTG() {
     )
 }
 
-export default CollectingDocumentsTG;
+export default CollectingDocuments;

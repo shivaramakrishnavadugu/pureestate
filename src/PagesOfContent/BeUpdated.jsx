@@ -1,9 +1,9 @@
 import React from "react";
 
-function KnowUpdates() {
+function BeUpdated() {
     return (
         <div className="updates_section common_class">
-            <h1>Know Updates</h1>
+            <h1>Be Updated</h1>
             <p><span>Legal and Regulatory Changes:</span> Keep abreast of any changes in property-related laws, regulations, and policies at the central and state levels. This includes updates on land acquisition laws, property taxation, stamp duty rates, rent control regulations, and real estate development rules.</p>
 
             <p><span>Market Trends and Price Movements:</span> Monitor market trends, price movements, and demand-supply dynamics in the real estate sector. Stay informed about property prices, rental yields, inventory levels, and investment opportunities in different cities and localities.</p>
@@ -29,4 +29,4 @@ function KnowUpdates() {
     )
 }
 
-export default KnowUpdates;
+export default BeUpdated;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProhibitedPropertyTestTG() {
+function ProhibitedPropertyVerification() {
     return (
         <div className="prohibited_section common_class">
             <h1>Prohibited Property Verification</h1>
@@ -25,4 +25,4 @@ function ProhibitedPropertyTestTG() {
     )
 }
 
-export default ProhibitedPropertyTestTG;
+export default ProhibitedPropertyVerification;

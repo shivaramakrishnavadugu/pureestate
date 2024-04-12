@@ -70,15 +70,15 @@ body{
     background-color: rgb(71, 71, 71);
     color: #ffffff;
 }
-.na, .a{
+.na{
     border: 0.1rem solid rgb(26, 26, 36);
-    display: inline;
-    margin: 1.5rem;
+    /* margin: 1.5rem; */
     padding: 1rem;
     font-size: 2vw;
     font-weight: bolder;
     border-radius: 0.3rem;
     background-color: rgb(255, 255, 255);
+    margin-top: 2rem;
 }
 .na:hover, .a:hover{
     background-color: rgb(238, 238, 245);
@@ -86,6 +86,7 @@ body{
 .link_na, .link_a{
     text-decoration: none;
     color: var(--normal-font-color);
+    display: inline-block;
 }
 .home_span{
     color:rgb(42, 7, 145);
@@ -313,4 +314,7 @@ body{
 .common_class p span{
     font-weight: bold;
     color: rgb(9, 9, 20);
+}
+.contents_bar_head p{
+    display: none;
 }

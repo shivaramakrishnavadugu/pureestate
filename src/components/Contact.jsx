@@ -1,11 +1,11 @@
 import React from "react";
-import HeaderComp from "../components/Header";
-import Footer from "../components/Footer";
+import HeaderComponent from "./Header";
+import Footer from "./Footer";
 
-function Contact() {
+function ContactComponent() {
     return(
         <div>
-            <HeaderComp />
+            <HeaderComponent />
             <div className="contact_main_tag">
                 <div className="contact">
                     <h2 className="contact_heading">Let us help for you</h2>
@@ -16,4 +16,4 @@ function Contact() {
         </div>
     )
 }
-export default Contact;
+export default ContactComponent;

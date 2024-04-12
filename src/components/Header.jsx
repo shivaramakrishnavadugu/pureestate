@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
-function HeaderComp() { 
+function HeaderComponent() { 
 
     function ResponsiveNavBar() {
         var resnav = document.getElementById("res_nav_bar");
@@ -42,4 +42,4 @@ function HeaderComp() {
     )
 }
 
-export default HeaderComp;
+export default HeaderComponent;
